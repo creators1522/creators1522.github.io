@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="/assets/css/styles.css">
+	</head>
+	<body>
+		{% include navigation.html %}
+		{{ content }}
+		<!-- ---で囲まれたところ以外の文章。mdで書いてもhtml でも変換してくれる。-->
+        <ul>
+            {% for post in site.posts %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+	</body>
+</html>

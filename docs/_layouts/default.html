@@ -1,0 +1,14 @@
+<doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.title }}</title>
+		<!--page.titleはjekyll独特のliquidという言語。サイトのタイトルという意味-->
+		<link rel="stylesheet" href="/assets/css/styles.css">
+	</head>
+	<body>
+		{% include navigation.html %}
+		{{ content }}
+		<!-- ---で囲まれたところ以外の文章。mdで書いてもhtml でも変換してくれる。-->
+	</body>
+</html>

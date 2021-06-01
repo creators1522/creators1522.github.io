@@ -1,0 +1,5 @@
+# サイトで使うデータの場所
+- name: Home
+  link: /
+- name: About
+  link: /about.html

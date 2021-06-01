@@ -1,4 +1,6 @@
 ---
 
 ---
-@import "main";
+// 処理されたいなら---を入れる.
+@import "main"; 
+// _sass/main.scss的なのを読む。ここにいくつか記述してlinkすれば 一気に複数のcssをりようできる
