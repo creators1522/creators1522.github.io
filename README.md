@@ -8,26 +8,45 @@ git push orgin [branch名]でpushし、pull requestiを作ってね
 酔ってるので追記必須
 
 
-ファイル構成
+# ファイル構成
 
--docs
+## -docs
+
 //これ以下の者がビルドの対象
-  -_data
+
+  ### -_data
+  
   サイトで使うデータ。json形式とyml形式とかサポートしてるのは公式を見ろ。
-  -_includes 
+  
+  ### -_includes 
+  
   使いまわすコードとかはここに突っ込んでインクルードしよう
-  -_layouts
+  
+  ### -_layouts
+  
   ページレイアウトのテンプレを入れる。マークダウンで書いたやつがこれにしたがって変換されて公開される。
-  -_posts
+  
+  ### -_posts
+  
   投稿記事を入れる
-  -sass
+  
+  ### -sass
+  
   sass形式のを入れる。cssの似てるやつらしい？（知らん）。
-  -assets
+  
+  ### -assets
+  
   js、cssとか入れる。imageとかもここか？？
-  -.gitignore
+  
+  ### -.gitignore
+  
   むししろ
-  -_config.yml
+  
+  ### -_config.yml
+  
   設定項目
-  -Gemfile
-  rubyのパッケージ管理
+  
+  ### -Gemfile
+  
+  rubyのパッケージ管理。
   もうちょっと具体的なページの構想が出てこればもっとファイル分けしてもいいかもね
